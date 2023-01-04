@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakter</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Hemsidan</a>
+            </li>
+            <li>
+                <a href="products.html">Se våra produkter</a>
+            </li>
+            <li>
+                <a href="contacts.html">Kontakta oss</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Surdegen</h1>
+    <br>
+    <form>
+        <fieldset id="contacts">
+            <legend id="contact_frame">Kontakta oss:</legend>
+            <label for="name">Ditt namn:</label>
+            <input type="text" name="name" id="name" placeholder="Ange ditt namn här...">
+            <br><br>
+            <label for="email">Din E-post:</label>
+            <input type="email" name="email" id="email" placeholder="Ange din E-post här...">
+            <br><br>
+            <label for="phone">Ditt telefonnummer:</label>
+            <input type="number" name="phone" id="phone" placeholder="Ange ditt telefonnummer här...">
+            <br><br>
+            <label for="subject">Vad gäller det?</label>
+            
+            <select name="subject" id="subject">
+                <option disabled selected>Välj ämne...</option>
+                <option value="orders">Beställning</option>
+                <option value="cancellation">Avbeställning</option>
+                <option value="other">Övrigt</option>
+                <br><br><br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Skriv ditt meddelande här..."></textarea>
+                <br><br><br>
+                <button id="send_message">Skicka meddelandet</button>
+            </select>
+
+        </fieldset>
+    </form>
+
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
