@@ -28,7 +28,7 @@ body {
     background-attachment: fixed;*/
    
 }
-main {
+header {
    /* background-color: #73373f80;
     width: 96%;
     height: 200px;
@@ -48,12 +48,16 @@ main {
     justify-content: space-around;
     align-items: center;
     
+    
 }
 nav {
     display: flex;
-    
-
 }
+    
+#bread-icon {
+    width: 20px;
+}
+
 h1 {
     
     display: flex;
