@@ -1,12 +1,20 @@
-const send_messageEl = document.getElementById("send_message");
+const hide_messageEl = document.getElementById("hide_message");
 const contactsEl = document.getElementById("contacts");
-function messageSent() {
+
+
+function hideMessage() {
+    
+    contactsEl.classList.toggle("hide");
+    console.log("Meddelandet sänds och formuläret göms.");
     
 }
+hide_messageEl.addEventListener('click', hideMessage);
+  
+//Dölj menyn
+const menuButtonEl = document.getElementById("menuButton");
+const menuEl = document.getElementById("menu");
 
-function sendMessage() {
-    contactsEl.classList.remove("contacts")
-    console.log("Meddelandet sänds och formuläret töms.")
-    alert ("Meddelandet skickat!")
+function showMenu() {
+    menuEl.classList.toggle("displayMenu");
 }
-send_messageEl.addEventListener('click', sendMessage);
+menuButtonEl.addEventListener('click', showMenu);
