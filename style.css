@@ -67,17 +67,24 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
-.hide {
+.hide { /**/
     display: none;
 }
+
+.hide1 {
+    display: none;
+}
+.hide2 {
+    display: none; 
+}
 .displayMenu {
-    z-index: 1;
+    
     display: block;
     
 }
-
-
-
+.showMessage {
+    display: block;
+}
 .hero {
     background-image: url(images/Surdegsbröd\ första.jpg);
     
