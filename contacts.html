@@ -9,9 +9,11 @@
     <title>Kontakter</title>
 </head>
 <body>
+    <a name="topp"></a>
     <header>
+        
         <figure id="bread-icon">
-            <img src="images/breakfast_dining_FILL0_wght400_GRAD0_opsz48.svg" alt="Brödikon" title="Brödikon" width="50px">
+            <img src="images/breakfast_dining_FILL0_wght400_GRAD0_opsz48.svg" alt="Brödikon" title="Brödikon">
         </figure> 
         <div>
             <h1>Kontakta Surdegen</h1>
@@ -20,7 +22,7 @@
             </h2> 
             <br><br>
         </div>
-    <nav id="menu" class="hide1">
+    <nav id="menu" class="hide">
         <ul>
             <li>
                 <a href="index.html">Hemsidan</a>
@@ -35,8 +37,10 @@
     </nav>
     <figure>
     <button id="menuButton"><img src="images/iconmonstr-menu-3.svg" alt="Meny" title="Klicka för meny"></button>
-    
+    </figure>
     </header>
+    <section class="hero">
+    </section>
     <p>
         <b>Surdegen AB</b>
         <br>
@@ -48,8 +52,9 @@
     </p>
     
     <form>
-        <fieldset id="contacts">
-            <legend id="contact_frame">Kontakta oss:</legend>
+        <p id="sent" class="hide">Meddelandet skickat. Vi återkommer så snart som möjligt.</p>
+        <fieldset id="contacts" class="contacts">
+            <legend>Kontakta oss:</legend>
             <label for="name">Ditt namn:</label>
             <input type="text" name="name" id="name" placeholder="Ange ditt namn här...">
             <br><br>
@@ -66,20 +71,21 @@
                 <option value="orders">Beställning</option>
                 <option value="cancellation">Avbeställning</option>
                 <option value="other">Övrigt</option>
-                <br><br><br>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Skriv ditt meddelande här..."></textarea>
-                <br><br><br>
-            </select>
+            </select>   
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Skriv ditt meddelande här..."></textarea><br><br><br>
+           
         </fieldset>
                 <button id="hide_message">Skicka meddelandet</button>
-                <p id="sent" class="hide2">Meddelandet skickat. Vi återkommer så snart som möjligt.</p>
-            </form>
-    </div>
-    
-    <button id="toTop" class="toTop">Till toppen</button>
+                
+    </form>
+    <button class="toTop"><b> Till toppen</b></button>       
+    <a href="#topp"></a>
 
+
+
+    
     <footer>
-        <a href="contacts.html"><Kontaktformuläret>Kontaktformuläret</a> <br>
+        <a href="contacts.html">Kontaktformuläret</a> <br>
         <p>är bästa sättet att få kontakt med oss, annars kan ni använda något av följande media:</p>
         <br>
         <section class="icons">
