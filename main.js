@@ -19,6 +19,8 @@ function hideMessage() {
     sentEl.classList.add("showMessage");
     console.log("Meddelandet sänds och formuläret göms.");
 }
+/*hide_messageEl.addEventListener('click', hideMessage);
+
 hide_messageEl.addEventListener('click', (event) => {
     // Prevent the form from submitting
     event.preventDefault();
@@ -27,7 +29,7 @@ hide_messageEl.addEventListener('click', (event) => {
 
 
 
-/*const topButtonEl = document.getElementById("toTop");
+const topButtonEl = document.getElementById("toTop");
 
 function backToTop() {
     console.log("Tillbaka till toppen av sidan");
