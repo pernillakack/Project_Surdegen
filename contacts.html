@@ -9,7 +9,8 @@
     <title>Kontakter</title>
 </head>
 <body>
-    <header>
+    
+    <header id="top">
         
         <figure id="bread-icon">
             <img src="images/breakfast_dining_FILL0_wght400_GRAD0_opsz48.svg" alt="Brödikon">
@@ -70,15 +71,18 @@
                 <option value="orders">Beställning</option>
                 <option value="cancellation">Avbeställning</option>
                 <option value="other">Övrigt</option>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Skriv ditt meddelande här..."></textarea>
-            </select>  
                 
+            </select> 
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Skriv ditt meddelande här..."></textarea>
+                <label for="hide_message">
+                <button id="hide_message">Skicka meddelandet</button>
+            </label>
            
         </fieldset>
-                <button id="hide_message">Skicka meddelandet</button>
-                
+        
     </form>
-    <button class="toTop"><b> Till toppen</b></button>       
+    <a href="contacts.html#top" class="toTop"><b> Till toppen</b></a>
+      
    
 
 
