@@ -11,11 +11,11 @@ menuButtonEl.addEventListener('click', showMenu);
 
 
 const hide_messageEl = document.getElementById("hide_message");
-const contactsEl = document.getElementById("contacts");
+const contactFormEl = document.getElementById("contactForm");
 const sentEl = document.getElementById("sent");
                 
 function hideMessage() {
-    contactsEl.classList.add("hide");
+    contactFormEl.classList.add("hide");
     sentEl.classList.add("showMessage");
     console.log("Meddelandet sänds och formuläret göms.");
 }

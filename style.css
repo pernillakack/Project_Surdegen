@@ -47,18 +47,19 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.hide {
+    display: none;
+}
+
 #contacts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.hide {
-    display: none;
-}
 
-/*.displayMenu {
+.displayMenu {
     display: block;
-}*/
+}
 .showMessage {
     display: block;
 }
@@ -104,8 +105,6 @@ h1 {
     margin: 5%;
 }
 
-
-
 .toTop {
     position: fixed;
     cursor: pointer;
@@ -116,7 +115,6 @@ h1 {
     background-color: #A6754B;
     
 }
-
 
 footer {
     background-color: #73373f90;
